@@ -1,0 +1,5 @@
+<mapper namespace="com.red.dao.ExpenseInfoMapper" >
+    <insert id="add">
+
+    </insert>
+</mapper>
