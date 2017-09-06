@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <title>添加消费记录</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/vendor/bootstrap/css/bootstrap.min.css">
+
+</head>
+<body>
+<div class="panel">
+    <div class="panel-heading">
+        <h3 class="panel-title">添加消费记录</h3>
+    </div>
+    <div class="panel-body">
+        <select class="form-control">
+            <option value="cheese">三餐</option>
+            <option value="tomatoes">交通</option>
+            <option value="mozarella">个护用品</option>
+            <option value="mushrooms">衣帽鞋袜</option>
+            <option value="pepperoni">家庭用品</option>
+            <option value="onions">数码设备</option>
+            <option value="onions">饰品</option>
+        </select>
+        <br>
+        <input class="form-control" placeholder="输入消费内容" type="text">
+        <br>
+        <input class="form-control" placeholder="输入消费金额(元)" type="text">
+        <br>
+        <label class="fancy-radio">
+            <input name="gender" value="male" type="radio">
+            <span><i></i>不花会死</span>
+        </label>
+        <br>
+        <label class="fancy-radio">
+            <input name="gender" value="male" type="radio">
+            <span><i></i>um...</span>
+        </label>
+        <br>
+        <label class="fancy-radio">
+            <input name="gender" value="male" type="radio">
+            <span><i></i>保证最后一次</span>
+        </label>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <button type="button" class="btn btn-primary btn-block" onclick="addExpense();">剩多少钱心里有点b数</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    function addExpense() {
+        alert("我看你是想把我花死！");
+    }
+</script>
+</body>
+</html>
